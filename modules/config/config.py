@@ -26,15 +26,15 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "500"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " OG MUSIC PLAYER ")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6061809727").split()))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " LuciuZ MUSIC PLAYER ")
+OWNER_ID = list(map(int, getenv("OWNER_ID", "1214207902").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/Dillu1984/OG-MUSIC",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OGsNetwork")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ogsupportchatt")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/satanR10")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/zioassteien")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "On")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
@@ -74,7 +74,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 ### Do Not Touch Or Edit Codes After This Line
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(6061809727)
+OWNER_ID.append(1214207902)
 ############################
 adminlist = {}
 lyrical = {}
